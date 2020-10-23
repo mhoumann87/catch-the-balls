@@ -24,3 +24,11 @@ function draw() {
   }
  
 }
+
+function keyPressed() {
+  if (keyCode === LEFT_ARROW) {
+    paddle.moveLeft();
+  } else if (keyCode === RIGHT_ARROW) {
+    paddle.moveRight();
+  }
+}
